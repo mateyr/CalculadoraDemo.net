@@ -28,10 +28,12 @@ namespace CalculadoraBasic
 
         private void BtnOne_Click(object sender, EventArgs e)
         {
-            if (lblOperaci.Text.Equals("0") || isOperationAdded)
+            if (lblInput.Text.Equals("0") || isOperationAdded)
             {
                 lblOperaci.Text = "";
             }
+            isOperationAdded = false;
+
             Button btn = (Button)sender;
             if (btn.Text.Equals(".", StringComparison.CurrentCultureIgnoreCase))
             {
@@ -41,38 +43,33 @@ namespace CalculadoraBasic
                 }
             }
 
-            lblOperaci.Text += btn.Text;
+            lblInput.Text += btn.Text;
 
         }
 
         private void BtnSum_Click(object sender, EventArgs e)
         {
-            if (lblOperaci.Text.Equals("0"))
-            {
-                lblOperaci.Text = "";
-            }
             Button btn = (Button)sender;
-            if (result == 0)
+
+            if (result == 0 || isOperationAdded)
             {
-                result = Double.Parse(lblOperaci.Text);
-                lblOperaci.Text = lblOperaci.Text + " " + btn.Text;
-                operacion = btn.Text;
-                isOperationAdded = true;
-            }
-            else
+                result = Double.Parse(lblInput.Text);
+            }else
             {
-                operacion = btn.Text;
-                isOperationAdded = true;
-                PerformOperation(operacion);
+                PerformOperation();
             }
 
+            operacion = btn.Text;
+            isOperationAdded = true;
+            lblOperaci.Text = lblOperaci.Text + operacion;
+          
         }
 
 
-        private void PerformOperation(String Operation)
+        private void PerformOperation()
         {
 
-            switch (Operation)
+            switch (operacion)
             {
                 case "+": result += Double.Parse(lblOperaci.Text); break;
                 case "-": result -= Double.Parse(lblOperaci.Text); break;
@@ -99,6 +96,14 @@ namespace CalculadoraBasic
 
             }
 
+            lblOperaci.Text = result.ToString();
+            lblInput.Text = "";
+
+        }
+
+        private void BtnEqual_Click(object sender, EventArgs e)
+        {
+            PerformOperation();
         }
     }
 

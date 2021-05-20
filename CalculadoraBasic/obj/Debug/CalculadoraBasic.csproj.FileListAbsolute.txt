@@ -8,3 +8,13 @@ C:\Users\Sistemas-07\source\repos\CalculadoraBasic\CalculadoraBasic\obj\Debug\Ca
 C:\Users\Sistemas-07\source\repos\CalculadoraBasic\CalculadoraBasic\obj\Debug\CalculadoraBasic.csproj.CoreCompileInputs.cache
 C:\Users\Sistemas-07\source\repos\CalculadoraBasic\CalculadoraBasic\obj\Debug\CalculadoraBasic.exe
 C:\Users\Sistemas-07\source\repos\CalculadoraBasic\CalculadoraBasic\obj\Debug\CalculadoraBasic.pdb
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\bin\Debug\CalculadoraBasic.exe.config
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\bin\Debug\CalculadoraBasic.exe
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\bin\Debug\CalculadoraBasic.pdb
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.csprojAssemblyReference.cache
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.Form1.resources
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.Properties.Resources.resources
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.csproj.GenerateResource.cache
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.exe
+C:\Users\Sistemas-07\Documents\NetBeansProjects\CalculadoraDemo.net\CalculadoraBasic\obj\Debug\CalculadoraBasic.pdb

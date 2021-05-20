@@ -164,6 +164,7 @@
             this.btnDiv.TabIndex = 7;
             this.btnDiv.Text = "÷";
             this.btnDiv.UseVisualStyleBackColor = true;
+            this.btnDiv.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // btnSevent
             // 
@@ -203,6 +204,7 @@
             this.btnMult.TabIndex = 11;
             this.btnMult.Text = "x";
             this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // btnFour
             // 
@@ -242,6 +244,7 @@
             this.btnSubtract.TabIndex = 15;
             this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = true;
+            this.btnSubtract.Click += new System.EventHandler(this.BtnSum_Click);
             // 
             // btnOne_Click
             // 
@@ -320,13 +323,14 @@
             this.btnEqual.TabIndex = 23;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
+            this.btnEqual.Click += new System.EventHandler(this.BtnEqual_Click);
             // 
             // FlowLayoutPanel2
             // 
             this.FlowLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FlowLayoutPanel2.Controls.Add(this.lblInput);
             this.FlowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.FlowLayoutPanel2.Location = new System.Drawing.Point(12, 184);
+            this.FlowLayoutPanel2.Location = new System.Drawing.Point(11, 181);
             this.FlowLayoutPanel2.Name = "FlowLayoutPanel2";
             this.FlowLayoutPanel2.Size = new System.Drawing.Size(299, 27);
             this.FlowLayoutPanel2.TabIndex = 2;
@@ -364,10 +368,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 402);
+            this.ClientSize = new System.Drawing.Size(320, 397);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.FlowLayoutPanel2);
             this.Controls.Add(this.FlowLayoutPanel1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.FlowLayoutPanel1.ResumeLayout(false);
